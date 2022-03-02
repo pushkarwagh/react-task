@@ -17,7 +17,7 @@ class Body extends React.Component {
         return (
             <>
                 <div className='body p-2 mb-2' style={{ backgroundColor: 'lightblue' }}>
-                    <div className='row g-4' >
+                    <div className='row g-4 xyz' >
                         {this.state.user.map((element, index) => (
                             <>
                                  <UserCard data={element} />
