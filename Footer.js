@@ -9,6 +9,7 @@ class Footer extends React.Component {
             <>
              <div className='footer p-5 ' style={ {textAlign: 'center' , backgroundColor: 'cyan'} }>
                  <p>This is a Footer</p>
+                 <p>This is a Footer</p>
 
                  <div className='footerBox' style={ { margin:'auto',width:'150px', height:'50px', 
                    borderRadius:'20px' ,backgroundColor: this.props.box}} > ColorChange </div>
